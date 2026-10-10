@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "sbsl",
+            "name": "Скрипт.sbsl#Скрипт",
+            "stopOnEntry": false,
+            "request": "attach",
+            "scriptFile": "Скрипт.sbsl",
+            "args": [],
+            "method": "Скрипт"
+        }
+    ]
+}
