@@ -9,6 +9,15 @@
             "scriptFile": "Скрипт.sbsl",
             "args": [],
             "method": "Скрипт"
+        },
+        {
+            "type": "sbsl",
+            "name": "НовыйСкрипт.sbsl#Скрипт",
+            "stopOnEntry": false,
+            "request": "attach",
+            "scriptFile": "НовыйСкрипт.sbsl",
+            "args": [],
+            "method": "Скрипт"
         }
     ]
 }
