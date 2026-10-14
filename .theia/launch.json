@@ -9,6 +9,15 @@
             "scriptFile": "Скрипт.sbsl",
             "args": [],
             "method": "Скрипт"
+        },
+        {
+            "type": "sbsl",
+            "name": "Скрипт.sbsl#ОбработатьПолучитьПользователей",
+            "stopOnEntry": false,
+            "request": "attach",
+            "scriptFile": "Скрипт.sbsl",
+            "args": [],
+            "method": "ОбработатьПолучитьПользователей"
         }
     ]
 }
