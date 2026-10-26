@@ -3,6 +3,15 @@
     "configurations": [
         {
             "type": "sbsl",
+            "name": "ПримерCRUD.sbsl#CRUD",
+            "stopOnEntry": false,
+            "request": "attach",
+            "scriptFile": "ПримерCRUD.sbsl",
+            "args": [],
+            "method": "CRUD"
+        },
+        {
+            "type": "sbsl",
             "name": "Скрипт.sbsl#Скрипт",
             "stopOnEntry": false,
             "request": "attach",
@@ -10,14 +19,5 @@
             "args": [],
             "method": "Скрипт"
         },
-        {
-            "type": "sbsl",
-            "name": "Скрипт.sbsl#ОбработатьПолучитьПользователей",
-            "stopOnEntry": false,
-            "request": "attach",
-            "scriptFile": "Скрипт.sbsl",
-            "args": [],
-            "method": "ОбработатьПолучитьПользователей"
-        }
     ]
 }
