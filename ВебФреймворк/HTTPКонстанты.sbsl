@@ -1,0 +1,45 @@
+#совместимость 10.0
+
+@Глобально
+конст GET = "GET"
+@Глобально
+конст POST = "POST"
+@Глобально
+конст DELETE = "DELETE"
+@Глобально
+конст PUT = "PUT"
+@Глобально
+конст PATCH = "PATCH"
+
+@Глобально
+конст СТАТУС_OK = "200 OK"
+@Глобально
+конст СТАТУС_CREATED = "201 CREATED"
+@Глобально
+конст СТАТУС_NO_CONTENT = "204 NO CONTENT"
+
+@Глобально
+конст СТАТУС_MOVED_PERMANENTLY = "301 MOVED PERMANENTLY"
+@Глобально
+конст СТАТУС_FOUND = "302 FOUND"
+@Глобально
+конст СТАТУС_NOT_MODIFIED = "304 NOT MODIFIED"
+
+@Глобально
+конст СТАТУС_BAD_REQUEST = "400 BAD REQUEST"
+@Глобально
+конст СТАТУС_FORBIDDEN = "403 FORBIDDEN"
+@Глобально
+конст СТАТУС_NOT_FOUND = "404 NOT FOUND"
+@Глобально
+конст СТАТУС_METHOD_NOT_ALLOWED = "405 METHOD NOT ALLOWED"
+@Глобально
+конст СТАТУС_TOO_MANY_REQUESTS = "429 TOO MANY REQUESTS"
+
+
+@Глобально
+конст ЗАГОЛОВОК_CONTENT_LENGTH = "content-length"
+@Глобально
+конст ЗАГОЛОВОК_CONTENT_TYPE = "content-type"
+@Глобально
+конст ТИП_КОНТЕНТА_JSON = "application/json"
